@@ -1,4 +1,7 @@
 <template>
+  <Head>
+    <Title>Home</Title>
+  </Head>
   <main>
     <header>
       <h1>Nuxt Notes</h1>
@@ -9,6 +12,7 @@
       <Assets />
       <Styling />
       <Routing />
+      <Metadata />
     </article>
   </main>
 </template>

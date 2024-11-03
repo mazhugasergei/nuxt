@@ -1,8 +1,16 @@
+<script lang="ts" setup>
+const title = "about"
+const capitalTitle = title.charAt(0).toUpperCase() + title.slice(1)
+</script>
+
 <template>
+  <Head>
+    <Title>{{ capitalTitle }}</Title>
+  </Head>
   <main>
     <header>
-      <h1>About</h1>
-      <p>This is the about page</p>
+      <h1>{{ capitalTitle }}</h1>
+      <p>This is the {{ title }} page</p>
     </header>
     <article>
       <section>

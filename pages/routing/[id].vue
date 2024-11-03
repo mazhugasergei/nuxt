@@ -7,6 +7,10 @@ definePageMeta({
     return typeof route.params.id === "string" && /^\d+$/.test(route.params.id)
   },
 })
+
+useHead({
+  title: "Congrats!",
+})
 </script>
 
 <template>
