@@ -1,7 +1,10 @@
 {
-  "name": "nuxt-app",
-  "private": true,
-  "type": "module",
+  "dependencies": {
+    "@nuxt/image": "^1.8.1",
+    "nuxt": "^3.13.2",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -9,9 +12,8 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
-  "dependencies": {
-    "nuxt": "^3.13.2",
-    "vue": "latest",
-    "vue-router": "latest"
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.12.2",
+    "sass": "^1.80.6"
   }
 }
