@@ -65,7 +65,7 @@ const color = ref("green")
 
 <style lang="scss" scoped>
 .dynamic {
-  &.active {
+  &:not(.active) {
     opacity: 0.5;
   }
 }
