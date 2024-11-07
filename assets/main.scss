@@ -79,6 +79,16 @@ input[type="text"] {
   padding: 0.25rem 1rem;
 }
 
+code {
+  overflow: auto;
+  font-family: monospace;
+  background: #111;
+  color: #eee;
+  font-size: 0.9rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+
 samp {
   font-family: monospace;
   background: #444;

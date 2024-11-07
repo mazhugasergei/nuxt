@@ -8,6 +8,7 @@
 
 <style lang="scss" scoped>
 .card {
+  overflow-y: auto;
   background: #222;
   border: 1px solid var(--border);
   border-radius: 0.5rem;

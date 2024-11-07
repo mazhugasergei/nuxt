@@ -11,5 +11,6 @@ div {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  overflow-y: auto;
 }
 </style>

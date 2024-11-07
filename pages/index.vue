@@ -8,11 +8,12 @@
       <p>My personal app I was building while learning Nuxt. Of course it's built with Nuxt.</p>
     </header>
     <article>
-      <Configs />
+      <!-- <Configs />
       <Assets />
       <Styling />
       <Routing />
-      <Metadata />
+      <Metadata /> -->
+      <Fetching />
     </article>
   </main>
 </template>
